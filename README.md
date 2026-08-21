@@ -2,7 +2,7 @@
 ## Fall 2026
 
  
-### ourse Description
+### Course Description
 Cryptography is the foundation of modern cybersecurity. Nearly every secure technology—from online banking and messaging applications to virtual private networks, password managers, cloud storage, and software updates—depends on cryptographic techniques. Understanding how these techniques work, why they are secure, and how they should be applied is an essential skill for cybersecurity professionals.
 This course provides a practical introduction to modern cryptography and cryptanalysis. Students will explore the historical development of cryptography, the mathematical foundations that support modern cryptographic systems, and the algorithms and protocols used to secure today's information systems. Emphasis is placed on understanding how cryptography is correctly integrated into real-world software rather than developing new cryptographic algorithms.
 Throughout the semester, students will build a reusable Python-based cryptographic toolkit that demonstrates both classical and modern cryptographic concepts.
@@ -48,15 +48,15 @@ Selected sections will be assigned throughout the semester to supplement mathema
  
 #### Software Requirements
 Students will use the following software throughout the semester:
-•	Python 3.12+
-•	JupyterLab
-•	Git
-•	Visual Studio Code (recommended)
-•	PyCryptodome
-•	cryptography
-•	pytest
-•	matplotlib
-•	numpy
+- ython 3.12+
+- JupyterLab
+- Git
+- Visual Studio Code (recommended)
+- PyCryptodome
+- cryptography
+- pytest
+- matplotlib
+- numpy
 Installation instructions will be provided during the first week of class.
  
 ### Course Structure
