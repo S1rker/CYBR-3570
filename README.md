@@ -44,11 +44,12 @@ https://learning.oreilly.com/library/view/serious-cryptography-2nd/9781098182472
 #### Supplemental Text
 Christof Paar and Jan Pelzl
 Understanding Cryptography: A Textbook for Students and Practitioners
+
 Selected sections will be assigned throughout the semester to supplement mathematical concepts and provide additional examples.
  
 #### Software Requirements
 Students will use the following software throughout the semester:
-- ython 3.12+
+- Python 3.12+
 - JupyterLab
 - Git
 - Visual Studio Code (recommended)
