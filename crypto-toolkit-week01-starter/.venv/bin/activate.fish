@@ -29,7 +29,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/dvbabb/Library/CloudStorage/OneDrive-UniversityofNebraskaatOmaha/CYBR 3570/Week 1/crypto-toolkit-week01-starter/.venv"
+set -gx VIRTUAL_ENV "/Users/cartermoon/projects/CYBR-3570/crypto-toolkit-week01-starter/.venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

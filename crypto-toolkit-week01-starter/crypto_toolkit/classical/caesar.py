@@ -21,18 +21,35 @@ def num_to_char(n: int) -> str:
 
 
 def caesar_encrypt(plaintext: str, shift: int) -> str:
-    """Encrypt plaintext with a Caesar shift."""
-    # TODO: Implement in Lab 01.
-    raise NotImplementedError
+    """
+    Encrypt plaintext using the Caesar cipher.
+
+    This is an educational implementation only.
+    Do not use this algorithm to protect real information.
+    """
+    result = []
+    for ch in plaintext:
+        if ch.upper() in ALPHABET:
+            original_is_lower = ch.islower()
+            n = char_to_num(ch.upper())
+            encrypted = num_to_char(n + shift)
+            result.append(encrypted.lower() if original_is_lower else encrypted)
+        else:
+            result.append(ch)
+    return "".join(result)
 
 
 def caesar_decrypt(ciphertext: str, shift: int) -> str:
-    """Decrypt Caesar ciphertext with a known shift."""
-    # TODO: Implement in Lab 01.
-    raise NotImplementedError
+    """Decrypt Caesar ciphertext by reversing the shift."""
+    return caesar_encrypt(ciphertext, -shift)
 
 
 def brute_force_caesar(ciphertext: str) -> list[tuple[int, str]]:
     """Return all possible Caesar decryptions."""
-    # TODO: Implement in Lab 01.
-    raise NotImplementedError
+    candidates = []
+    for shift in range(26):
+        candidates.append((shift, caesar_decrypt(ciphertext, shift)))
+    return candidates
+
+if __name__ == '__main__':
+    pass
