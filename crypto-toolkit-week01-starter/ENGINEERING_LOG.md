@@ -10,3 +10,10 @@
 older cipher are helpful learn from but shouldn't be used for modern applciations
 ### Reflection
 
+## Week 2 - Toolkit v0.2
+
+### Added
+    
+### Security Lesson
+    how math can help us make randomness and how the computer make randomness.
+### Reflection
